@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.techaction.mall.ui.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:alpha="0.6"
+        android:background="@android:color/darker_gray" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:tag="home"
+            android:id="@+id/radio_button_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/mian_tab_home_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:tag="category"
+            android:id="@+id/radio_button_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/main_tab_category_selector"
+            android:text="分类" />
+
+        <RadioButton
+            android:tag="cart"
+            android:id="@+id/radio_button_cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/main_tab_cart_selector"
+            android:text="购物车"/>
+
+        <RadioButton
+            android:tag="user"
+            android:id="@+id/radio_button_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioGroupButtonStyle"
+            android:drawableTop="@drawable/main_tab_me_selector"
+            android:text="我的"/>
+    </RadioGroup>
+
+</LinearLayout>

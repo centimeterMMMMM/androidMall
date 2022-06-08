@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mall</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_">Detail_Activity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_confirm_order">ConfirmOrderActivity</string>
+    <string name="title_activity_address_list">AddressListActivity</string>
+</resources>

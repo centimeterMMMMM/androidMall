@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--专门用来定义尺寸的xml文件-->
+    <dimen name="bigger_font">20sp</dimen>
+    <dimen name="big_font">18sp</dimen>
+    <dimen name="normal_font">16sp</dimen>
+
+
+    <dimen name="category_left_width">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
